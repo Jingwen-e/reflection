@@ -40,13 +40,13 @@ What do you think are the pros and cons of manually choosing when to create a co
 	Logical changes are important.
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
-	Git is concerning a more complex system which contains abundant of basic files. 	While Google Docs treat each file independently.
+	Git is concerning a more complex system which contains abundant of basic files. While Google Docs treat each file independently.
 
 How can you use the commands git log and git diff to view the history of files?
-	When I am under the target directory, I can directly use "log git" to see all the 	commits made. Right after that, I can use git diff to compare two versions of file 	seperated by commits.
+	When I am under the target directory, I can directly use "log git" to see all the commits made. Right after that, I can use git diff to compare two versions of file 	seperated by commits.
 
 How might using version control make you more confident to make changes that could break something?
-	Definitely using version control makes me more comfortable to make changes on my 	code since I don't worry about that I can not restore the previous version. And I 	can always track where the bug was introduced.
+	Definitely using version control makes me more comfortable to make changes on my code since I don't worry about that I can not restore the previous version. And I 	can always track where the bug was introduced.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 	create a repository!!
@@ -54,25 +54,22 @@ Now that you have your workspace set up, what do you want to try using Git for?
 REFLECTION 2
 
 What happens when you initialize a repository? Why do you need to do it?
-	All the files in that repository are untracked files. I need to get them tracked 	first.
+	All the files in that repository are untracked files. I need to get them tracked first.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-	Staging area is a buffer for the files which go from working directory to the 		repository. It reduce the probability of making mistake when making a commit.
+	Staging area is a buffer for the files which go from working directory to the repository. It reduce the probability of making mistake when making a commit.
 
 How can you use the staging area to make sure you have one commit per logical change?
-	Every time when a commit is going to be made, always use "git diff" to check what 	is in the staging area.
+	Every time when a commit is going to be made, always use "git diff" to check what is in the staging area.
 
 How do the diagrams help you visualize the branch structure?
 	With circle and arrow to show the relation of commits and branches.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-	There is going to be only one version of branches containing all the commits from 	both the previous branches. Easier to understand?
+	There is going to be only one version of branches containing all the commits from both the previous branches. Easier to understand?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 	Automatic:
-	pros: Save time and labour; cons: have to train git well to learn what to 		undertake under different situations.
+	pros: Save time and labour; cons: have to train git well to learn what to undertake under different situations.
 	Manually:
-	Pros: clearly know what happened in final file and use expertise to distinguish 	the situation; cons: time consuming.
-
-
-1111
+	Pros: clearly know what happened in final file and use expertise to distinguish the situation; cons: time consuming.
