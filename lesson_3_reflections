@@ -35,3 +35,15 @@ Why might you want to always pull changes manually rather than having Git automa
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
     forks is the way you copy the repo from others within Github into your own accountl; clones is the method you copy a repo from github, either your account or others' account, into your own computre; branches is the branch you created from one commit to seperate from master and other branches, either on local computer or github. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    Not known yet.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+    Discussion in person? But file exchange and update would be extremely hard.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+    When I start a new feature or to try something different, fun but uncertain, I would suggest to create a new branch instead of adding into master branch. When the changes are clear relevant to master branches and is for sure correct, for example, typo, writing them into master branch would be a better choice.
