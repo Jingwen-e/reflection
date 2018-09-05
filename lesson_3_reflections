@@ -31,3 +31,7 @@ master?  What benefits does each approach have?
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
     Just make sure the ready-version is shown to the public.
+    
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+    forks is the way you copy the repo from others within Github into your own accountl; clones is the method you copy a repo from github, either your account or others' account, into your own computre; branches is the branch you created from one commit to seperate from master and other branches, either on local computer or github. 
